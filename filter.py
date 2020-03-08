@@ -28,7 +28,7 @@ if __name__ == '__main__':
     img_path = 'rawImages/'
     filtered_path = 'filteredImages/'
 
-    # generate cornea overlay images
+    # generate overlay images
     images = sorted(glob.glob(img_path + '*.jpg'))
     print("Starting to filter raw images!")
     i = 0

@@ -24,7 +24,7 @@ class AtopicEczemaModel:
             np.random.permutation(self.eyes_dataframe.index))
         self.total_images = total_images
         self.export_directory="./export_dir"
-        self.learning_rate = 0.03
+        self.learning_rate = 0.05
         self.step_size = 150
         self.batch_size = 20
 
