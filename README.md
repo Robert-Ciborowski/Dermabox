@@ -1,4 +1,4 @@
-# Dermabox - by Team Smurfers-On-Rails
+# Dermabox - by Team Redbull-On-Rails
 Detects atopic eczema in babies. Used by 3rd-world midwifery nurses.
 
 ## Inspiration
