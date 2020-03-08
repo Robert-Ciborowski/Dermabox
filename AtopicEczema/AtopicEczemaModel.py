@@ -166,8 +166,8 @@ class AtopicEczemaModel:
 
     def export_current_model(self):
         # export model and weights
-        export_dir = self.linear_regressor.export_saved_model(export_dir_base="./export_dir",
-                                                         serving_input_receiver_fn=self.serving_input_receiver_fn)
+        export_dir = self.linear_regressor.export_saved_model(export_dir_base="../export_dir",
+                                                              serving_input_receiver_fn=self.serving_input_receiver_fn)
 
     def serving_input_receiver_fn(self):
         """

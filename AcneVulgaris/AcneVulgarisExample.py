@@ -3,19 +3,19 @@ from __future__ import print_function, absolute_import, division,unicode_literal
 import pandas as pd
 import tensorflow as tf
 
-from AtopicEczemaModel import AtopicEczemaModel
+from AcneVulgaris.AcneVulgarisModel import AcneVulgarisModel
 
 tf.logging.set_verbosity(tf.logging.ERROR)
 pd.options.display.max_rows = 10
 pd.options.display.float_format = '{:.1f}'.format
 
 # Total images in dataset
-total_images = 101
+total_images = 75
 file = "filtered_image_data.csv"
 
 # Do these calls in THIS order!!!!!!!!!!!!!!!
 # Creating our model:
-model = AtopicEczemaModel(file, total_images)
+model = AcneVulgarisModel(file, total_images)
 model.setup()
 
 # -- TRAIN THE MODEL FROM SCRATCH --
